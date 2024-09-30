@@ -1,0 +1,403 @@
+
+.intro{
+    position: fixed;
+    top: 39%;
+    left: 41%;
+    padding: 50px 50px 50px 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    color: saddlebrown;
+}
+
+#play-autho{
+    position: fixed;
+    top: 50%;
+    left: 40%;
+
+    padding: 50px 50px 50px 50px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+
+}
+
+
+.intro_title{
+    font-size: 35px;
+    font-weight: bold;
+    font-style: oblique;
+}
+
+#input {
+
+    background-color: white;
+    border: 3px solid saddlebrown;
+    font-size: 25px;
+    text-align: center;
+    color: saddlebrown;
+}
+
+.btn {
+    padding: 20px 20px 20px 20px;
+    font-size: 18px;
+    color: saddlebrown;
+}
+
+.btn:hover{
+    border: 3px solid darkred;
+    font-weight: bold;
+}
+
+#square1{
+    background-color: white;
+    border: 3px solid saddlebrown;
+    width: 70px;
+    height: 70px;
+    position: fixed;
+    margin-left: 70px;
+    margin-top: 70px;
+    animation-name: s1;
+    animation-duration: 7s;
+    animation-iteration-count:infinite;
+    animation-timing-function: linear;
+}
+
+#triangle1{
+    position: fixed;
+    margin-left: 820px;
+    margin-top: 70px;
+    animation-name: t1;
+    animation-duration: 7s;
+    animation-iteration-count:infinite;
+    animation-timing-function: linear;
+}
+
+#tr1 {
+    border-left: 50px solid transparent;
+    border-right: 50px solid transparent;
+    border-bottom: 70px solid saddlebrown;
+}
+
+#tr11 {
+    border-left: 50px solid transparent;
+    border-right: 50px solid transparent;
+    border-bottom: 70px solid white;
+    transform: scale(90%) translateY(-77px);
+    z-index: 1;
+}
+
+#triangle2{
+    position: fixed;
+    margin-left: 820px;
+    margin-top: 800px;
+    animation-name: t2;
+    animation-duration: 7s;
+    animation-iteration-count:infinite;
+    animation-timing-function: linear;
+}
+
+#tr2 {
+    border-left: 50px solid transparent;
+    border-right: 50px solid transparent;
+    border-bottom: 70px solid saddlebrown;
+}
+
+#tr22 {
+    border-left: 50px solid transparent;
+    border-right: 50px solid transparent;
+    border-bottom: 70px solid white;
+    transform: scale(90%) translateY(-77px);
+    z-index: 1;
+}
+
+#circle1{
+    background-color: white;
+    border: 3px solid saddlebrown;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    position: fixed;
+    margin-left: 1500px;
+    margin-top: 70px;
+    animation-name: c1;
+    animation-duration: 7s;
+    animation-iteration-count:infinite;
+    animation-timing-function: linear;
+}
+
+#square2{
+    background-color: white;
+    border: 3px solid saddlebrown;
+    width: 70px;
+    height: 70px;
+    position: fixed;
+    margin-left: 1500px;
+    margin-top: 800px;
+    animation-name: s2;
+    animation-duration: 7s;
+    animation-iteration-count:infinite;
+    animation-timing-function: linear;
+}
+
+#circle2{
+    background-color: white;
+    border: 3px solid saddlebrown;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    position: fixed;
+    margin-left: 70px;
+    margin-top: 800px;
+    animation-name: c2;
+    animation-duration: 7s;
+    animation-iteration-count:infinite;
+    animation-timing-function: linear;
+}
+
+#rhombus{
+    background-color: white;
+    border: 3px solid saddlebrown;
+    width: 50px;
+    height: 70px;
+    transform: skewX(30deg);
+    position: fixed;
+    margin-left: 70px;
+    margin-top: 430px;
+    animation-name: r1;
+    animation-duration: 7s;
+    animation-iteration-count:infinite;
+    animation-timing-function: linear;
+}
+
+#rhombus2{
+    background-color: white;
+    border: 3px solid saddlebrown;
+    width: 50px;
+    height: 70px;
+    transform: skewX(30deg);
+    position: fixed;
+    margin-left: 1500px;
+    margin-top: 430px;
+    animation-name: r2;
+    animation-duration: 7s;
+    animation-iteration-count:infinite;
+    animation-timing-function: linear;
+}
+
+@keyframes c1 {
+    from {
+        margin-left: 1500px;
+        margin-top: 70px;
+    }
+    25%{
+        margin-left: 820px;
+        margin-top: 70px;
+    }
+    50%{
+        margin-left: 70px;
+        margin-top: 70px;
+    }
+    75%{
+        margin-left: 70px;
+        margin-top: 470px;
+    }
+    to{
+        margin-left: 70px;
+        margin-top: 800px;
+    }
+}
+
+@keyframes c2 {
+    from {
+        margin-left: 70px;
+        margin-top: 800px;
+    }
+    25%{
+        margin-left: 820px;
+        margin-top: 800px;
+    }
+    50%{
+        margin-left: 1500px;
+        margin-top: 800px;
+    }
+    75%{
+        margin-left: 1500px;
+        margin-top: 470px;
+    }
+    to{
+        margin-left: 1500px;
+        margin-top: 70px;
+    }
+}
+
+@keyframes s1 {
+    from {
+        margin-left: 70px;
+        margin-top: 70px;
+        transform: rotate(0deg);
+    }
+    25%{
+        margin-left: 70px;
+        margin-top: 470px;
+        transform: rotate(45deg);
+    }
+    50%{
+        margin-left: 70px;
+        margin-top: 800px;
+        transform: rotate(90deg);
+    }
+    75%{
+        margin-left: 820px;
+        margin-top: 800px;
+        transform: rotate(135deg);
+    }
+    to{
+        margin-left: 1500px;
+        margin-top: 800px;
+        transform: rotate(180deg);
+    }
+}
+
+@keyframes s2 {
+    from {
+        margin-left: 1500px;
+        margin-top: 800px;
+        transform: rotate(0deg);
+    }
+    25%{
+        margin-left: 1500px;
+        margin-top: 470px;
+        transform: rotate(45deg);
+    }
+    50%{
+        margin-left: 1500px;
+        margin-top: 70px;
+        transform: rotate(90deg);
+    }
+    75%{
+        margin-left: 820px;
+        margin-top: 70px;
+        transform: rotate(135deg);
+    }
+    to{
+        margin-left: 70px;
+        margin-top: 70px;
+        transform: rotate(180deg);
+    }
+}
+
+@keyframes t1 {
+    from {
+        margin-left: 820px;
+        margin-top: 70px;
+        transform: rotate(0deg);
+    }
+    25%{
+        margin-left: 60px;
+        margin-top: 70px;
+        transform: rotate(90deg);
+    }
+    50%{
+        margin-left: 70px;
+        margin-top: 430px;
+        transform: rotate(180deg);
+    }
+    75%{
+        margin-left: 70px;
+        margin-top: 760px;
+        transform: rotate(270deg);
+    }
+    to{
+        margin-left: 820px;
+        margin-top: 800px;
+        transform: rotate(360deg);
+    }
+}
+
+@keyframes t2 {
+    from {
+        margin-left: 820px;
+        margin-top: 800px;
+        transform: rotate(0deg);
+    }
+    25%{
+        margin-left: 1500px;
+        margin-top: 800px;
+        transform: rotate(90deg);
+    }
+    50%{
+        margin-left: 1500px;
+        margin-top: 430px;
+        transform: rotate(180deg);
+    }
+    75%{
+        margin-left: 1500px;
+        margin-top: 70px;
+        transform: rotate(270deg);
+    }
+    to{
+        margin-left: 820px;
+        margin-top: 70px;
+        transform: rotate(360deg);
+    }
+}
+
+@keyframes r1 {
+    from {
+        margin-left: 70px;
+        margin-top: 430px;
+        transform: rotate(0deg) skewX(30deg);
+    }
+    25%{
+        margin-left: 70px;
+        margin-top: 800px;
+        transform: rotate(45deg) skewX(30deg);
+    }
+    50%{
+        margin-left: 820px;
+        margin-top: 800px;
+        transform: rotate(90deg) skewX(30deg);
+    }
+    75%{
+        margin-left: 1500px;
+        margin-top: 800px;
+        transform: rotate(135deg) skewX(30deg);
+    }
+    to{
+        margin-left: 1500px;
+        margin-top: 430px;
+        transform: rotate(180deg) skewX(30deg);
+    }
+}
+
+@keyframes r2 {
+    from {
+        margin-left: 1500px;
+        margin-top: 430px;
+        transform: rotate(0deg) skewX(30deg);
+    }
+    25%{
+        margin-left: 1500px;
+        margin-top: 70px;
+        transform: rotate(45deg) skewX(30deg);
+    }
+    50%{
+        margin-left: 820px;
+        margin-top: 70px;
+        transform: rotate(90deg) skewX(30deg);
+    }
+    75%{
+        margin-left: 70px;
+        margin-top: 70px;
+        transform: rotate(135deg) skewX(30deg);
+    }
+    to{
+        margin-left: 70px;
+        margin-top: 430px;
+        transform: rotate(180deg) skewX(30deg);
+    }
+}

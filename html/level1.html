@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="../css/style.css" rel="stylesheet">
+    <link rel="stylesheet" href="../css/level1.css">
+    <title>Уровень 1</title>
+</head>
+<body>
+<div class="hidden" id="win">
+    <a href="levels.html" class="a">Вернуться к списку уровней</a>
+    <a href="level2.html" class="a">Следующий уровень</a>
+</div>
+
+<div class="field">
+    <div id="exit">
+        <a href="levels.html" id="lev">Закрыть</a>
+    </div>
+</div>
+<div class="hidden" id="lose">
+    <a href="levels.html" class="a">Вернуться к списку уровней</a>
+    <a href="level1.html" class="a">Начать заново</a>
+</div>
+
+<div class="game-content">
+    <div class="top">
+        <div class="top1">
+            <div id="num_level">Уровень 1</div>
+            <div id="rules">Выбери правильный ответ на вопрос</div>
+        </div>
+        <div id="time">
+            <div id="countdown"></div>
+        </div>
+        <div id="score">
+
+        </div>
+    </div>
+    <div class="board">
+        <div id="question_area"></div>
+        <div id="answers"></div>
+    </div>
+</div>
+
+<script src="../js/level1.js"></script>
+</body>
+</html>

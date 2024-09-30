@@ -1,0 +1,114 @@
+.game-content{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items:center;
+}
+
+.main{
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.hello_words{
+    width: 80%;
+    text-align: center;
+    align-items: center;
+    line-height: 1.5;
+    font-size: 16px;
+    padding: 9% 20px;
+    background-color: white;
+    border: 3px solid saddlebrown;
+    color: saddlebrown;
+}
+
+#hello-name{
+    font-size: 20px;
+    font-weight: bolder;
+    margin-bottom: 20px;
+}
+
+.hello_text{
+    font-size: 20px;
+}
+
+.bg_levels{
+    width: 80%;
+    justify-content: space-between;
+    align-items:center;
+}
+
+
+.levels{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    margin-left: 50px;
+}
+
+.level{
+    height: 30%;
+    margin: 20px 0px 20px 60px;
+    padding: 20px;
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.level:hover{
+    text-shadow:0 0 10px white;
+}
+
+.not_avalible{
+    background-color: lightgrey;
+    color: darkgray;
+    pointer-events: none;
+}
+
+.not_finished{
+    background-color: white;
+    color: brown;
+}
+
+.finished{
+    background-color: darkorange;
+    color: white;
+}
+
+
+.rate{
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 50px;
+}
+
+.rates{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 50px;
+}
+.rating{
+    padding: 20px;
+    font-size: 40px;
+    color: darkred;
+    align-items: center;
+}
+
+#f_place, #s_place, #t_place, #player{
+    width: 100%;
+    height: 100px;
+    text-align: right;
+    font-size: 30px;
+    color: darkred;
+    padding: 20px;
+}
+
